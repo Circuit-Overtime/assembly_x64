@@ -1,9 +1,3 @@
-.data
-msg_prompt:     .asciiz "Enter the radius of the circle: \n"
-msg_area:       .asciiz "The area of the circle is: \n"
-msg_perimeter:  .asciiz "The perimeter of the circle is: \n"
-pi_value:       .float 3.14159
-
 .text
 .globl main
 
@@ -55,3 +49,10 @@ main:
     # Exit the program
     li $v0, 10
     syscall
+
+
+.data
+msg_prompt:     .asciiz "Enter the radius of the circle: \n"
+msg_area:       .asciiz "The area of the circle is: \n"
+msg_perimeter:  .asciiz "The perimeter of the circle is: \n"
+pi_value:       .float 3.14159
