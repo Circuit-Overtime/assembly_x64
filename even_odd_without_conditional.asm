@@ -57,3 +57,5 @@ main:
     # End program
     li      $v0, 10                     # System call for exit
     syscall                             # Make the system call
+
+    #ayushman -- 13/09/2021
